@@ -1,0 +1,46 @@
+body{
+    background: url('../img/background/login.png') no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+
+.login__block__header > img {
+    width: 70%;
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 10px;
+}
+
+.login__block__body .btn-light{
+    color: #525a62;
+    background-color: #f6f6f6;
+    border-color: #f6f6f6;
+}
+
+.login__block__body .btn-light:hover{
+    background-color: #d6d6d6;
+    border-color: #d6d6d6;
+}
+
+.botoes-login{
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.botoes-login div{
+    float: left;
+    margin: 0 5px;
+}
+.botoes-login .checkbox{
+    margin-top: .5rem;
+}
+.botoes-login a i{
+    margin: 10px 0 0 0;
+}
+
+.custom{
+    width: 3rem !important;
+    height: 3rem !important;
+    margin-top: 6px !important;
+}

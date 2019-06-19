@@ -1,0 +1,1 @@
+<a href="{{ $link }}" class="btn btn-success" data-toggle="tooltip" data-placement="top" data-original-title="Adicionar"><i class="zmdi zmdi-plus"></i></a>

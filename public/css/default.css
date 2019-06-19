@@ -1,0 +1,188 @@
+/* Carregando */
+.page-loader {
+    background: rgba(220,220,220,0.8) !important;
+    display:none !important;
+}
+
+.page-loader__spinner{
+    margin: 0 auto !important;
+}
+
+.loader-descricao p{
+    color: #3F51B5;
+    font-weight: bold;
+}
+/* FIM - Carregando */
+
+/* Logo Sistema Topo */
+.header__logo img{
+    height: 26px;
+}
+/* FIM -  Logo Sistema */
+
+/* Menu Perfil */
+#perfil{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px;
+}
+
+#perfil p{
+    margin: 0;
+    padding: 0;
+}
+
+#perfil p i{
+    margin-left: 10px;
+}
+
+#perfil .empresa{
+    height: 20px;
+}
+
+#perfil .usuario{
+    height: 32px;
+    margin-left: 5px;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -o-border-radius: 500px;
+}
+/* FIM - Menu Perfil */
+
+/* Logo Sistema Menu Lateral */
+.logo-lateral{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px;
+}
+
+.logo-lateral img{
+    height: 30px;
+}
+/* FIM - Logo Sistema Menu Lateral */
+
+/* Logo Módulo */
+.logo-modulo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-modulo .item{
+    float: left;
+}
+
+.logo-modulo i{
+    margin: 0 20px 0 0;
+}
+
+.logo-modulo span{
+    font-size: 20px;
+}
+/* FIM - Logo Módulo */
+
+/* Alterar cor do ícone de notificação em templates de cores diferentes */
+body[data-ma-theme="red"] .top-nav__notify::before, 
+body[data-ma-theme="orange"] .top-nav__notify::before, 
+body[data-ma-theme="purple"] .top-nav__notify::before
+{
+    background-color: #000 !important;
+}
+/* FIM - Alterar cor do ícone de notificação em templates de cores diferentes */
+
+/* Alteração de cor do efeito hover padrão de tabelas */
+.table-hover tr:hover{
+    background-color: #c9c9c9 !important;
+    cursor: pointer;
+}
+/* FIM - Alteração de cor do efeito hover padrão de tabelas */
+
+/* Visualização em arvore */
+.tree .tree-item .collapse{
+    margin-top: 10px;
+}
+
+.tree .tree-item .form-group{
+    display: flex;
+}
+
+.tree .tree-item a{
+    color: #666;
+    margin-left: 10px;
+}
+/* FIM - Visualização em arvore */
+
+/* Ações de CRUD */
+.float-buttons{
+    z-index: 2;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.float-buttons a, .float-buttons button{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 20px;
+    box-shadow: 0 4px 3px -2px rgba(0,0,0,.15),0 2px 2px 0 rgba(0,0,0,.04),0 1px 5px 0 rgba(0,0,0,.02)!important;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+
+/*.apagar-registro a{
+    display: block;
+    width: 100%;
+    padding: .5rem 1.5rem;
+    clear: both;
+    color: #6d6d6d;
+    text-align: inherit;
+    background-color: transparent;
+    border: 0;
+}
+
+.apagar-registro a:focus, .apagar-registro a:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f9f9f9;
+}*/
+
+.pagination{
+    margin: 30px 0 0 0;
+}
+/* FIM - Ações de CRUD */
+.hide{
+    display: none;
+}
+.crud_view_logo_empresa{
+    width: 50%;
+    height: 50%;
+    border: 1px solid gray;
+}
+
+/* DATATABLE */
+#data-table thead th:hover{
+    background-color: #999;
+}
+#data-table tfoot th{
+    background-color: #313a44;
+    border-color: #3e464e;
+    color: #f3f3f3;
+}
+.dataTables_info {
+    margin: 10px 0 !important;
+}
+/* DATATABLE - FIM */

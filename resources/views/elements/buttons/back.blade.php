@@ -1,0 +1,1 @@
+<a href="{{ $link }}" class="btn btn-success" data-toggle="tooltip" data-placement="top" data-original-title="Voltar"><i class="zmdi zmdi-arrow-left"></i></a>

@@ -1,0 +1,1 @@
+<div id="notificacao" mensagem="{{ $message }}" data-type="inverse" data-from="bottom" data-align="center" data-icon="fa fa-thumbs-up" data-animation-in="animated flipInY" data-animation-out="animated fadeOut"></div>
